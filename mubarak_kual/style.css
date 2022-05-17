@@ -21,7 +21,7 @@ body *{
   --btnColor:black;
   --previewShadow:#9D965D;
   --previevBg:rgb(251,249,243, 0.8);
-  --iconColor:black;
+  --iconColor:#20062E;
 }
 h1,h2,h3,h4,h5,h6{
   color:var(--mainText);
@@ -87,9 +87,21 @@ p,li,span,label,input,textarea{
   box-shadow:var(--boxShadow);
   border: 2px solid var(--themeDotborder);
 }
-.icon-color{
+.icon-color i{
   color:var(--iconColor);
-  display:flex
+  display:flex;
+  font-size:26px;
+}
+#icon-size{
+  font-size:20px;
+  
+}
+.social-wrapper{
+  margin: 0 auto;
+}
+.social-text{
+  font-size:12px;
+  font-weight:600;
 }
 
 .theme-dot:hover{
@@ -396,50 +408,62 @@ label{
 }
 .btn-text{
     padding: 0 2rem;
+    
 }
 .btn-icon{
     display:flex;
     align-items: center;
     justify-content: center;
-    background:#00FF9C;
+    background:#164324;
     padding: 1rem;
     border-radius: 50%;
-    
+    color:white;
 }
+.btn-main::before{
+  content:'';
+  position: absolute;
+  top:0;
+  right:0;
+  transform:translatex(100%);
+  transition:all .4 ease-out;
+  z-index:-1;
+}
+
+.github{
+
+  color:#291F51;
+  width:30px;
+  width:30px;
+ 
+  border-radius:50%;
+}
+.github i{
+margin:0 auto;
+padding-left:7px;
+font-size:23px;
+}
+.github-abc{
+  font-size:12px;
+  font-weight:600;
+}
+.icon-wrapper{
+  display:flex;
+  gap:5px;
+}
+.btn-main:hover{
+  height:100%;
+  transform:translateX(-1);
+  background:#00FF9C;
+  
+}
+
 .btn-container{
     display: flex;
-    align-self: flex-start;
+    align-self:flex-end;
 }
-.download:hover{
-    background:#50752A;
-}
-.icon {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-   width:30px; 
-   height:30px;
-   background-color:;
-   margin-left:15px;
-    border-radius:50%;
-   margin-top:2px;
-   
-}
-.icon i{
-    color: ;
-}
-.download i{
-    margin-top:4px;
-    margin-left:10px;
-    
-    /*height:40px;
-    width:40px;
-    border-radius:50%;
-    background:black;
-    */
-    
-}
-@media screen and (max-width:500px){
+
+
+   @media screen and (max-width:500px){
  .about-wrapper{
    display:inline-block;
  }
