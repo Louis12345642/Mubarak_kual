@@ -476,6 +476,7 @@ font-size:23px;
 }
 #right-img{
   width:280px;
+  box-shadow:var(--boxShadow);
 }
 }
 
