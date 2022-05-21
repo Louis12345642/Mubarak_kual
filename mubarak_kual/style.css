@@ -61,6 +61,7 @@ p,li,span,label,input,textarea{
   list-style:none;
   font-family: 'Radio Canada', sans-serif;
   font-size:14px;
+  line-height:1.5rem;
  
 }
 .sect1{
