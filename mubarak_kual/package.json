@@ -1,0 +1,18 @@
+{
+  "name": "mubarak_kual",
+  "version": "1.0.0",
+  "description": "Portfolio backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mubarak kual louis",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}
