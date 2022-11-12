@@ -155,6 +155,7 @@ p,li,span,label,input,textarea{
 .sect2{
   background-color:var(--secondaryColor);
   border-bottom:1px solid var(--borderColor);
+
 }
 .main-container{
   display:grid;
@@ -308,20 +309,24 @@ p,li,span,label,input,textarea{
   gap:20px;
   justify-content:center;
   padding-bottom:50px;
+
 }
 .thumbnail{
   display:block;
   width:100%;
   height:180px;
+  border-radius: 10px;
 }
 .post{
   border:1px solid var(--borderColor);
   box-shadow:var(--boxShadow);
+  border-radius: 10px;
  
 }
 .post-preview{
   padding:15px;
   background: white;
+  border-radius: 10px;
 }
 .post-title{
   color:black;

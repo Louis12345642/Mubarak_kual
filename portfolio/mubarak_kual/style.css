@@ -317,11 +317,13 @@ p,li,span,label,input,textarea{
 .post{
   border:1px solid var(--borderColor);
   box-shadow:var(--boxShadow);
+  border-radius: 10px;
  
 }
 .post-preview{
   padding:15px;
   background: white;
+  border-radius: 10px;
 }
 .post-title{
   color:black;
@@ -482,3 +484,7 @@ font-size:23px;
 }
 }
 
+#Post{
+  border-radius: 10px;
+  background-color: red;
+}
